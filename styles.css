@@ -1,0 +1,74 @@
+body {
+    background-color: #0056b3;
+    font-family: Arial, sans-serif;
+    margin: 120px 440px ;
+    padding: 0;
+}
+
+.screen {
+    display: block;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+}
+
+.screen h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.screen form {
+    margin-bottom: 10px;
+}
+
+.screen input[type="text"],
+.screen input[type="email"],
+.screen input[type="password"],
+.screen button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.screen input[type="text"],
+.screen input[type="email"],
+.screen input[type="password"] {
+    height: 40px;
+}
+
+.screen button {
+    margin-top: 20px;
+    background-color:  #0056b3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.screen button:hover {
+    background-color: #007bff;
+}
+
+.screen p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.screen p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.screen p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
